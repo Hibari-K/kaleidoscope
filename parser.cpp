@@ -9,6 +9,7 @@
 int CurTok;
 std::map<char, int> BinopPrecedence;
 
+//static int CurTok;
 int getNextToken(){
     return CurTok = gettok();
 }
@@ -222,6 +223,8 @@ std::unique_ptr<FunctionAST> ParseTopLevelExpr(){
 
         return nullptr;
     }
+
+    return nullptr;
 }
 
 
