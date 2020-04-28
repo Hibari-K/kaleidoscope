@@ -88,9 +88,6 @@ public:
 
 
 
-
-
-
 extern std::string IdentifierStr;   // Filled in if tok_identifier
 extern double NumVal;
 extern int CurTok;
